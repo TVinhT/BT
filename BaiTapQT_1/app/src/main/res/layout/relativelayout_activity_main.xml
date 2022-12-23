@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=".Relative_Layout">
+
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="wrap_content"
+        android:layout_height="336dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="235dp"
+        android:background="#006400">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re2"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="121dp"
+        android:background="#620000">
+
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/sb1"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="51dp" />
+
+    <RelativeLayout
+        android:id="@+id/re3"
+        android:layout_width="wrap_content"
+        android:layout_height="303dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#000064" />
+
+    <RelativeLayout
+        android:id="@+id/re4"
+        android:layout_width="188dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/re3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="8dp"
+
+        android:background="#62c800">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re5"
+        android:layout_width="187dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="123dp"
+        android:background="#00649c">
+
+    </RelativeLayout>
+</RelativeLayout>

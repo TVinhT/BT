@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="389dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold|italic"
+        android:textColor="@color/purple_200"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDescription1"
+        android:layout_width="385dp"
+        android:layout_height="54dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="94dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescription1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/textViewDescription2"
+        android:layout_width="251dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescription1" />
+
+    <Button
+        android:id="@+id/buttonMore"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/buttonMore"
+        app:layout_constraintTop_toTopOf="@+id/buttonMore" />
+
+    <TextView
+        android:id="@+id/textViewpubDate"
+        android:layout_width="202dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescription2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

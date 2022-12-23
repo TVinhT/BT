@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.baitapqt_1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:6:5-31:19
+12        android:allowBackup="true"
+12-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\84964\.gradle\caches\transforms-3\39858a0edda35c9bad4a02052f2a3484\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.BaiTapQT_1" >
+22-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:14:9-48
+23        <activity
+23-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:16:9-18:39
+24            android:name="com.example.baitapqt_1.Table_Layout"
+24-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:17:13-41
+25            android:exported="false" />
+25-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:19:9-21:40
+27            android:name="com.example.baitapqt_1.Relative_Layout"
+27-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:20:13-44
+28            android:exported="false" />
+28-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:21:13-37
+29        <activity
+29-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:22:9-30:20
+30            android:name="com.example.baitapqt_1.MainActivity"
+30-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:23:13-41
+31            android:exported="true" >
+31-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:24:13-36
+32            <intent-filter>
+32-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:26:17-69
+33-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:28:17-77
+35-->A:\nh\BaiTapQT_1\app\src\main\AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.baitapqt_1.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\84964\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\84964\.gradle\caches\transforms-3\b1620bace8a059a8fba1f86b24b9b083\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\84964\.gradle\caches\transforms-3\b1620bace8a059a8fba1f86b24b9b083\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\84964\.gradle\caches\transforms-3\b1620bace8a059a8fba1f86b24b9b083\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
